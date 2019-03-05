@@ -1,0 +1,117 @@
+@page {
+  size: 210mm 297mm;
+  margin: 1mm;
+}
+  
+@font-face {
+  font-family: 'HPSimplified';
+  src:
+    url('//fonts/subset-HPSimplified-Light.woff') format("woff"),
+    url('../fonts/subset-HPSimplified-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container {
+  display: block;
+  width: 200mm;
+  height: 297mm;
+  top: 0;
+  left: 0;
+//  background-color: bisque;
+  
+}
+
+.ticket {
+  display: block;
+  width: 200mm;
+  height: 295mm;
+  margin: auto;
+  text-align: center;
+//  border:  1px solid black;
+}
+
+.ticket__left {
+  margin-left: 0mm;
+  display: inline-block;
+  width: 90mm;
+  height: 55mm;
+
+  border:  1px solid black;
+  margin-bottom: 2mm;
+}
+
+.ticket_right {
+  margin-left: 0;
+  display: inline-block;
+  width: 90mm;
+  height: 55mm;
+  
+  border: 1px solid black;
+  float: right;
+  margin-bottom: 2mm;
+}
+
+.title {
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2mm;
+  margin-top: 2mm;
+}
+
+.subtitle {
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2mm;
+}
+
+.invate {
+  font-size: 24px;
+
+  margin-bottom: 2mm;
+}
+
+.content {
+  font-size:10px;
+  font-weight: bold;
+  margin-bottom: 3mm;
+}
+.address {
+
+  font-size: 8px;
+}
+
+.label {
+  margin-top: 5mm;
+  font-size: 12px;
+}
+
+.label1 {
+  text-align: left;
+  margin-left: 5mm;
+  margin-top: 15mm;
+  font-size: 12px;
+}
+
+.square {
+  display: none;
+  margin-top: 5mm;
+  display: block;
+  width: 60mm;
+  height: 10mm;
+  
+ // border: 2px dashed black;
+  float: right;
+  margin-right: 10mm;
+}
+
+/*
+.image {
+  width: 100%;
+  height: 100%;
+  background: url('/image/image.png') no-repeat center;
+  background-size 30mm: 
+}
+*/
